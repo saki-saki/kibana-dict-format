@@ -12,7 +12,7 @@ uiRoutes
     template,
     resolve: {
       currentTime($http) {
-        return $http.get('../api/dict-field/example').then(function (resp) {
+        return $http.get('../api/dict-format/example').then(function (resp) {
           return resp.data.time;
         });
       }
